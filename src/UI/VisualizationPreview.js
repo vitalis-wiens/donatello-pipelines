@@ -173,6 +173,7 @@ class VisualizationPreview extends Component {
         <div
           id="visualizationPreviewContainer"
           style={{
+            paddingBottom: "5px",
             borderRadius: "10px",
             borderWidth: "1px",
             borderColor: "rgb(219,221,229)",
