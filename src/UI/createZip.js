@@ -185,9 +185,9 @@ export default class createZipBundle {
         execFunctionDef += "graph.setRenderingConfig(renderingConfig);\n";
 
         execFunctionDef +=
-          "const config={" +
+          "const config=" +
           JSON.stringify(renderingConfig, null, "\t") +
-          " };\n";
+          ";\n";
 
         execFunctionDef +=
           'graph.setRenderingContainer("renderingContainer");\n' +

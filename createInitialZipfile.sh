@@ -4,6 +4,7 @@
 cd bundleGenerator
 cd src 
 cp -rd ../../src/Implementation ./
+cp -rd ../../src/demoRequests ./
 
 #// zip it 
 cd ..
