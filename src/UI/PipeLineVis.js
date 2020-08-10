@@ -6,8 +6,9 @@ import {
 } from "./redux/actions";
 import { connect } from "react-redux";
 import TabLikeHeader from "./TabLikeHeader";
-
 import { Button } from "reactstrap";
+
+import createZip from "./createZip";
 import VisModal from "./VisModal";
 import StaticLocalVowlJSONLoader from "../Implementation/DataAccessComponent/StaticLocalVowlJSONLoader";
 import VOWLParser from "../Implementation/Parsers/VOWLParser";
@@ -131,6 +132,13 @@ class PipeLineVis extends Component {
         nodeLinkModel: undefined
       });
     }
+  };
+
+  exportPipeline = () => {
+    // read a zip file
+
+    const zipper = new createZip(this.props.store);
+    zipper.execute();
   };
 
   propagate_DBPEdiaConfiguratorState = state => {
@@ -611,6 +619,10 @@ class PipeLineVis extends Component {
             {this.renderVertexEdgeMapper()}
             {this.renderNodeLinkMapper()}
             {this.renderRenderingModule()}
+            <Button onClick={() => this.exportPipeline()}>
+              {" "}
+              Export Pipeline{" "}
+            </Button>
           </div>
         </div>
 

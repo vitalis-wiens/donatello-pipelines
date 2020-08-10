@@ -24,7 +24,10 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "styled-components": "^5.1.1",
-    "history": "^4.10.1"
+    "history": "^4.10.1",
+    "jszip": "^3.5.0",
+    "jszip-utils": "^0.1.0",
+    "file-saver": "^2.0.2"
   },
   "devDependencies": {
     "connected-react-router": "^6.8.0",
