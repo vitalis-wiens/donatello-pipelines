@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/donatello-pipelines/precache-manifest.79b414c82c3cac71f53dd891953ff84f.js"
+  "/donatello-pipelines/precache-manifest.271236cece6aed82f0d9f08d187b514d.js"
 );
 
 self.addEventListener('message', (event) => {
