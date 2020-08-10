@@ -164,6 +164,15 @@ export default class createZipBundle {
           );
         }
 
+        if (
+          that.componentDefinitions.renderingModuleConfig.configSelected ===
+          "ORKG"
+        ) {
+          imports.push(
+            'import OrkgRenderingHandler from "../Implementation/Renderes/gizmoRenderer/renderingConfigs/OrkgRenderingHandler";'
+          );
+          components.push("const renderingConfig = new OrkgRenderingHandler()");
+        }
         // console.log(imports);
         // console.log(components);
 
@@ -185,9 +194,7 @@ export default class createZipBundle {
         execFunctionDef += "graph.setRenderingConfig(renderingConfig);\n";
 
         execFunctionDef +=
-          "const config=" +
-          JSON.stringify(renderingConfig, null, "\t") +
-          ";\n";
+          "const config=" + JSON.stringify(renderingConfig, null, "\t") + ";\n";
 
         execFunctionDef +=
           'graph.setRenderingContainer("renderingContainer");\n' +
