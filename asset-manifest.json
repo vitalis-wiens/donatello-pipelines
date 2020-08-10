@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/donatello-pipelines/static/css/main.62a34b28.chunk.css",
-    "main.js": "/donatello-pipelines/static/js/main.7b2395b7.chunk.js",
-    "main.js.map": "/donatello-pipelines/static/js/main.7b2395b7.chunk.js.map",
+    "main.js": "/donatello-pipelines/static/js/main.2bb7aed5.chunk.js",
+    "main.js.map": "/donatello-pipelines/static/js/main.2bb7aed5.chunk.js.map",
     "runtime-main.js": "/donatello-pipelines/static/js/runtime-main.a8070eae.js",
     "runtime-main.js.map": "/donatello-pipelines/static/js/runtime-main.a8070eae.js.map",
     "static/css/2.829c9cb5.chunk.css": "/donatello-pipelines/static/css/2.829c9cb5.chunk.css",
     "static/js/2.7e812f93.chunk.js": "/donatello-pipelines/static/js/2.7e812f93.chunk.js",
     "static/js/2.7e812f93.chunk.js.map": "/donatello-pipelines/static/js/2.7e812f93.chunk.js.map",
     "index.html": "/donatello-pipelines/index.html",
-    "precache-manifest.e324ba5e7a93bc8eac5fdea0cc609ff7.js": "/donatello-pipelines/precache-manifest.e324ba5e7a93bc8eac5fdea0cc609ff7.js",
+    "precache-manifest.473b9a92fe51675c170dd453e2c84c0c.js": "/donatello-pipelines/precache-manifest.473b9a92fe51675c170dd453e2c84c0c.js",
     "service-worker.js": "/donatello-pipelines/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/donatello-pipelines/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.62a34b28.chunk.css.map": "/donatello-pipelines/static/css/main.62a34b28.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.7e812f93.chunk.js",
     "static/css/main.62a34b28.chunk.css",
-    "static/js/main.7b2395b7.chunk.js"
+    "static/js/main.2bb7aed5.chunk.js"
   ]
 }
