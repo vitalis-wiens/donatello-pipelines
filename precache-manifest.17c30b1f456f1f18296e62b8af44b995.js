@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cef32153e879961c264bb08947b52057",
+    "revision": "b67ccadc39371867d8d6cb1f59f176b9",
     "url": "/donatello-pipelines/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/donatello-pipelines/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "3b77cb12c0d0de2d61d1",
+    "revision": "f3317515a0681ab05df0",
     "url": "/donatello-pipelines/static/css/main.62a34b28.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/donatello-pipelines/static/js/2.7e812f93.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3b77cb12c0d0de2d61d1",
-    "url": "/donatello-pipelines/static/js/main.e9538df4.chunk.js"
+    "revision": "f3317515a0681ab05df0",
+    "url": "/donatello-pipelines/static/js/main.6b3db444.chunk.js"
   },
   {
     "revision": "0ca0674863f9385e5530",
