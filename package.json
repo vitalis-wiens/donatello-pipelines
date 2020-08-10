@@ -1,0 +1,118 @@
+{
+  "homepage": "https://vitalis-wiens.github.io/donatello-pipelines/",
+  "name": "donatello-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.24",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.1",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.3.1",
+    "d3": "^3.5.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router": "^5.1.2",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.1",
+    "history": "^4.10.1"
+  },
+  "devDependencies": {
+    "connected-react-router": "^6.8.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "gh-pages": "^2.01",
+    "prettier": "^1.18.2",
+    "prop-types": "^15.7.2",
+    "react-row-select-table": "^1.0.16",
+    "reactstrap": "^8.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint 'src/**/*.{js,jsx}'",
+    "lint:fix": "eslint 'src/**/*.{js,jsx}' --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "prettier"
+    ],
+    "plugins": [
+      "prettier"
+    ],
+    "rules": {
+      "prettier/prettier": [
+        "error"
+      ],
+      "react/jsx-closing-bracket-location": [
+        "error"
+      ],
+      "react/jsx-closing-tag-location": [
+        "error"
+      ],
+      "react/sort-comp": [
+        "error"
+      ],
+      "jsx-quotes": [
+        "error"
+      ],
+      "no-multi-spaces": [
+        "error"
+      ],
+      "react/jsx-tag-spacing": [
+        "error"
+      ],
+      "react/jsx-curly-spacing": [
+        "error"
+      ],
+      "curly": [
+        "error"
+      ],
+      "react/jsx-wrap-multilines": [
+        "error"
+      ],
+      "react/self-closing-comp": [
+        "error"
+      ],
+      "react/prop-types": [
+        "error"
+      ],
+      "no-var": [
+        "error"
+      ],
+      "no-const-assign": [
+        "error"
+      ],
+      "prefer-const": [
+        1
+      ]
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# Node.js dependencies
+node_modules
+
+# IntelliJ  files
+*.iml
+.idea/
+
+
+# Build files
+build/**
+

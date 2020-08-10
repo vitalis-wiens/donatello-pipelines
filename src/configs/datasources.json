@@ -1,0 +1,50 @@
+{
+  "availableSources":["Ontology File", "DBPedia", "WikiData", "ORKG"],
+  "availableVertexEdgeMappers": ["Basic Mapper"],
+  "availableNodeLinkMappers": ["Basic Mapper", "VOWL", "RDF", "UML"],
+
+
+  "availableRenderingConfigs": ["Default", "VOWL", "RDF", "UML", "ORKG", "TODO:Customizable"],
+
+
+  "Ontology File": {
+    "moduleName": "ONTOLOGY_FILE_LOADER",
+    "useProxy": true,
+    "disabledFileUpload": true,
+    "demoFile" : "src/demoRequests/ontologyFile.json",
+
+    "renderingItems": {
+      "Note": "File upload disabled",
+      "File" : "src/demoRequests/ontologyFile.json"
+    }
+
+  },
+
+  "DBPedia": {
+    "moduleName": "DBPEDILA_DATA_SOURCE",
+    "endPointURL" :  "http://dbpedia.org/sparql/",
+    "graphURL" : "http://dbpedia.org",
+    "query": "src/demoRequests/DBPediaExampleQuery.json",
+    "renderingItems": {
+      "EndPoint": "http://dbpedia.org/sparql/",
+      "Graph" : "http://dbpedia.org",
+      "Query" : "src/demoRequests/DBPediaExampleQuery.json"
+    }
+  },
+
+  "WikiData": {
+    "moduleName": "WIKIDATA_DATA_SOURCE",
+    "renderingItems": {
+
+    }
+  },
+  "ORKG": {
+    "moduleName": "ORKG_DATA_SOURCE",
+    "renderingItems": {
+
+    }
+  }
+
+
+
+}
