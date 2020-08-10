@@ -385,10 +385,7 @@ export default class DrawTools {
       );
 
       shape.attr("x", -0.5 * (labelBBWidth + options.overwriteOffset));
-      // shape.attr("y", -0.5 * labelBB.height);
       shape.attr("width", labelBBWidth + options.overwriteOffset);
-
-      // shape.attr("height", labelBB.height);
     }
 
     if (options.cropLongText) {
@@ -426,7 +423,7 @@ export default class DrawTools {
       shape.attr("y", -0.5 * height);
       shape.attr("width", width);
       shape.attr("height", height);
-      // precompute the shapesize based on the types;
+      // pre-compute the shape size based on the types;
 
       const labelBBHeight = this.measureTextHeight(
         label.text(),
@@ -438,7 +435,7 @@ export default class DrawTools {
       const offset = -0.5 * height + labelBBHeight;
       label.attr("dy", offset + "px");
 
-      // draw headerline;
+      // draw header line;
       const line = group.append("line");
 
       const x = shape.attr("x");
@@ -499,19 +496,6 @@ export default class DrawTools {
         );
 
         offsetVal += 35;
-        // just reuse of the node rendering function
-
-        // link.__displayName = this.cropText(
-        //   link.__displayName,
-        //   config.fontStyle,
-        //   100
-        // );
-        // link.__target.__displayName = this.cropText(
-        //   link.__target.__displayName,
-        //   config.fontStyle,
-        //   100
-        // );
-        //computeWidth and Height
       });
     }
 

@@ -11,7 +11,7 @@ export default class UMLRenderingHandler {
             strokeStyle: "dashed",
             strokeColor: "#000",
             radius: 30,
-            width: 50,
+            width: 90,
             height: 20
           },
           fontStyle: {
@@ -34,13 +34,13 @@ export default class UMLRenderingHandler {
         Literal: {
           style: {
             renderingType: "rect",
-            bgColor: "#a6fff3",
+            bgColor: "#FFCC33",
             strokeElement: true,
             strokeWidth: "1px",
             strokeStyle: "dashed",
             strokeColor: "#000",
             radius: 30,
-            width: 50,
+            width: 90,
             height: 20
           },
           fontStyle: {
