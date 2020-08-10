@@ -579,8 +579,7 @@ class PipeLineVis extends Component {
             borderBottomLeftRadius: "0",
             height: "40px",
             width: "100%",
-            alignItems: "center",
-            justifyContent: "center",
+
             color: "white",
             backgroundColor: "#ad2f38"
           }}
@@ -613,7 +612,9 @@ class PipeLineVis extends Component {
               height: "200px",
               textAlign: "center",
               display: "flex",
-              flexFlow: "wrap"
+              flexFlow: "wrap",
+              alignItems: "center",
+              justifyContent: "center"
             }}
           >
             {this.renderDataAccessHandler()}
