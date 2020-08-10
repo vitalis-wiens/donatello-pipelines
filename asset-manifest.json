@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/donatello-test/static/css/main.62a34b28.chunk.css",
-    "main.js": "/donatello-test/static/js/main.26470137.chunk.js",
-    "main.js.map": "/donatello-test/static/js/main.26470137.chunk.js.map",
+    "main.js": "/donatello-test/static/js/main.3d6940b6.chunk.js",
+    "main.js.map": "/donatello-test/static/js/main.3d6940b6.chunk.js.map",
     "runtime-main.js": "/donatello-test/static/js/runtime-main.8a99b99c.js",
     "runtime-main.js.map": "/donatello-test/static/js/runtime-main.8a99b99c.js.map",
     "static/css/2.829c9cb5.chunk.css": "/donatello-test/static/css/2.829c9cb5.chunk.css",
     "static/js/2.452f3b5d.chunk.js": "/donatello-test/static/js/2.452f3b5d.chunk.js",
     "static/js/2.452f3b5d.chunk.js.map": "/donatello-test/static/js/2.452f3b5d.chunk.js.map",
     "index.html": "/donatello-test/index.html",
-    "precache-manifest.503c0cf0c503e51df3550a05599e0f50.js": "/donatello-test/precache-manifest.503c0cf0c503e51df3550a05599e0f50.js",
+    "precache-manifest.1d1d5df9d2339910ff9f9566c39af2d3.js": "/donatello-test/precache-manifest.1d1d5df9d2339910ff9f9566c39af2d3.js",
     "service-worker.js": "/donatello-test/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/donatello-test/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.62a34b28.chunk.css.map": "/donatello-test/static/css/main.62a34b28.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.452f3b5d.chunk.js",
     "static/css/main.62a34b28.chunk.css",
-    "static/js/main.26470137.chunk.js"
+    "static/js/main.3d6940b6.chunk.js"
   ]
 }
