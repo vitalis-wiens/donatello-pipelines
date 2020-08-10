@@ -85,7 +85,7 @@ class LeftSideBar extends Component {
         width={this.props.width}
         style={{
           width: this.props.width,
-          height: this.state.innerHeight - 40,
+          height: this.state.innerHeight - 20,
           float: "left",
           position: "absolute"
         }}
@@ -124,8 +124,8 @@ class LeftSideBar extends Component {
             backgroundColor: "#ffffff",
             marginTop: "-1px",
             position: "relative",
-            height: "90%",
-            overflowY: "scroll",
+            height: "93%",
+            overflowY: "auto",
             overflowX: "hidden"
           }}
         >

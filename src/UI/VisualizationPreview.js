@@ -27,13 +27,25 @@ import UMLNodeLinkMapper from "../Implementation/Mappers/UMLNodeLinkMapper";
 class VisualizationPreview extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      offset: 0
+    };
     this.renderingModule = "null";
   }
 
   componentDidMount() {}
 
   componentDidUpdate = prevProps => {
+    // compute the offsets;
+
+    const bb = document
+      .getElementById("visualizationPreviewContainer")
+      .getBoundingClientRect();
+
+    if (this.state.offset !== bb.y) {
+      this.setState({ offset: bb.y });
+    }
+
     if (
       this.props.store.createPreviewVisualization !==
         prevProps.store.createPreviewVisualization &&
@@ -136,7 +148,7 @@ class VisualizationPreview extends Component {
 
   render() {
     return (
-      <div style={{ width: "100%" }}>
+      <div style={{ width: "100%", height: "100px" }}>
         <div
           // className="pr-md-5 pt-sm-2 pb-sm-2 pl-sm-2 pr-sm-2 clearfix"
           style={{
@@ -159,7 +171,7 @@ class VisualizationPreview extends Component {
         </div>
 
         <div
-          className="pr-md-5 pt-sm-2 pb-sm-2 pl-sm-2 pr-sm-2 clearfix"
+          id="visualizationPreviewContainer"
           style={{
             borderRadius: "10px",
             borderWidth: "1px",
@@ -179,7 +191,7 @@ class VisualizationPreview extends Component {
             id="visualizationPreviewArea"
             style={{
               height: this.props.store.createPreviewVisualization
-                ? "600px"
+                ? window.innerHeight - this.state.offset - 50
                 : "10px",
               width: "100%"
             }}

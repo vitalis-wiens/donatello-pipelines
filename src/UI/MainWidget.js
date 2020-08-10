@@ -71,13 +71,13 @@ export default class MainWidget extends Component {
         initialRendering={this.state.initialRendering}
         style={{
           height: "100%",
-          width: window.innerWidth - 200,
-          left: "200px"
+          width: window.innerWidth - 250,
+          left: "250px"
         }}
       >
         <div
           style={{
-            width: "80%",
+            width: "85%",
             height: "100%",
             position: "relative",
             left: "10%"

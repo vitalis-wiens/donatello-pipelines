@@ -579,7 +579,8 @@ class PipeLineVis extends Component {
             borderBottomLeftRadius: "0",
             height: "40px",
             width: "100%",
-
+            alignItems: "center",
+            justifyContent: "center",
             color: "white",
             backgroundColor: "#ad2f38"
           }}
@@ -590,9 +591,9 @@ class PipeLineVis extends Component {
         </div>
 
         <div
-          className="pr-md-5 pt-sm-2 pb-sm-2 pl-sm-2 pr-sm-2 clearfix"
           style={{
             borderRadius: "10px",
+            padding: "10px",
             borderWidth: "1px",
             borderColor: "rgb(219,221,229)",
             borderStyle: "solid",
@@ -619,11 +620,14 @@ class PipeLineVis extends Component {
             {this.renderVertexEdgeMapper()}
             {this.renderNodeLinkMapper()}
             {this.renderRenderingModule()}
-            <Button onClick={() => this.exportPipeline()}>
-              {" "}
-              Export Pipeline{" "}
-            </Button>
           </div>
+          <Button
+            style={{ height: 50, width: "100%" }}
+            onClick={() => this.exportPipeline()}
+          >
+            {" "}
+            Export Pipeline{" "}
+          </Button>
         </div>
 
         {this.state.selectedModule === "Data Access Handler" && (
