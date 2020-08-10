@@ -8,4 +8,6 @@ node_modules
 
 # Build files
 build/**
+bundleGenerator/**
 
+createInitialZipfile.sh
