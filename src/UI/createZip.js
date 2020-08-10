@@ -169,7 +169,7 @@ export default class createZipBundle {
           "ORKG"
         ) {
           imports.push(
-            'import OrkgRenderingHandler from "../Implementation/Renderes/gizmoRenderer/renderingConfigs/OrkgRenderingHandler";'
+            'import OrkgRenderingHandler from "./Implementation/Renderes/gizmoRenderer/renderingConfigs/OrkgRenderingHandler";'
           );
           components.push("const renderingConfig = new OrkgRenderingHandler()");
         }
