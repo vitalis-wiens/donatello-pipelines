@@ -144,7 +144,7 @@ export default class VOWLRenderingHandler {
           options: {
             drawDisplayName: true,
             drawNestedAttributes: false,
-            cropLongText: false,
+            cropLongText: true,
             addTitleForDisplayName: true,
             overwritesShapeSize: false,
             overwriteOffset: 0,
