@@ -12,7 +12,7 @@
 
 ### News and Updates 
    TODO
-### Dokumentation
+### Documentation
    TODO
 ### Reference Paper (TODO: upload to arxive)
   TODO
