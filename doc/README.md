@@ -32,7 +32,7 @@ The base folder contains the basic components from which we derive other special
         
            
 *   LanguageTools.js 
-    * helper functions to convert iris to labels or getting labels in different languages based on label tag. component for functions that are frequently used in different components 
+    * helper functions to convert iris to labels or getting labels in different languages based on label tag. 
         *  searchLanguage(textObject, preferredLanguage): returns label in preferred Language if (language === preferredLanguage && textObject.hasOwnProperty(language))
           This helps to access for example language tags stored in rdfs:label.
         *  IRI2Label(prefixMap, iri): returns a shortend label e.g. 'http://examle.org/resourceLabel' -> ex:resourceLabel if prefix map has the correct mapping, otherwise it will return just the suffix of the iri (here 'resourceLabel').
