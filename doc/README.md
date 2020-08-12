@@ -1,8 +1,9 @@
 # Documentation 
 This document provides a documentation of the source code.
 
-#Implementation
-###Base
+# Implementation
+
+### Base
 The base folder contains the basic components from which we derive other specialized components.
 
 * BaseComponentContants.js 
