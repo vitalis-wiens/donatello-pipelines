@@ -4,6 +4,11 @@
 (image/gif from  https://www.deviantart.com/pdexter/art/Donatello-587516755)
 
 # Donatello-pipelines
+* Select Components
+* Configure 
+* Adjust Visualiation (Visualization preview)
+* Export pipeline as a bundle zip, providing a core react app, pipline initialization, and the implementation of components
+* Start coding
 
 # [live-demo](https://vitalis-wiens.github.io/donatello-pipelines/)
 
