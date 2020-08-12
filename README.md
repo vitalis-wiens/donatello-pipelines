@@ -18,7 +18,7 @@ You can find the running demo application at [https://vitalis-wiens.github.io/do
 ### News and Updates 
    TODO
 ### Documentation
-   TODO
+   The documentation can be found [here](https://github.com/vitalis-wiens/donatello-pipelines/tree/master/doc)
 ### Reference Paper (TODO: upload to arxive)
   TODO
 
