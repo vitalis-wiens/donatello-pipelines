@@ -2,7 +2,7 @@
 # Donatello-pipelines
 * Select Components
 * Configure 
-* Adjust Visualiation (Visualization preview)
+* Adjust Visualization (Visualization preview)
 * Export pipeline as a bundle zip, providing a core react app, pipline initialization, and the implementation of components
 * Start coding
 
